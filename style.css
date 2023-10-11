@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.Calculator{
+    width: 314px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: brown;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    
+}
+
+#pantalla{
+    width: 90%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.btn{
+    width: 70px;
+  height: 60px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  background-color: #eee;
+  border-radius: 20px;
+  cursor: pointer;
+}
+

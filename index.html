@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    
+<div class="Calculator">
+<input type="text" id="pantalla" readonly>
+<br>
+<button class="btn" value="9" onclick="agregar('9')"><strong>9</strong></button>
+<button class="btn" value="8" onclick="agregar('8')"><strong>8</strong></button>
+<button class="btn" value="7" onclick="agregar('7')"><strong>7</strong></button>
+<button class="btn" value="÷" onclick="agregar('÷')"><strong>÷</strong></button>
+<br>
+<button class="btn" value="6" onclick="agregar('6')"><strong>6</strong></button>
+<button class="btn" value="5" onclick="agregar('5')"><strong>5</strong></button>
+<button class="btn" value="4" onclick="agregar('4')"><strong>4</strong></button>
+<button class="btn" value="+" onclick="agregar('+')"><strong>+</strong></button>
+<br>
+<button class="btn" value="3" onclick="agregar('3')"><strong>3</strong></button>
+<button class="btn" value="2" onclick="agregar('2')"><strong>2</strong></button>
+<button class="btn" value="1" onclick="agregar('1')"><strong>1</strong></button>
+<button class="btn" value="-" onclick="agregar('-')"><strong>-</strong></button>
+<br>
+<button class="btn" value="0" onclick="agregar('0')"><strong>0</strong></button>
+<button class="btn" value="C" onclick="borrar()"><strong>C</strong></button>
+<button class="btn" value="=" onclick="calcular()"><strong>=</strong></button>
+<button class="btn" value="*" onclick="agregar('*')"><strong>*</strong></button>
+
+
+
+
+
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
